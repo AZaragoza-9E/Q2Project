@@ -1,0 +1,89 @@
+* {
+   box-sizing: border-box;
+   font-family: "Courier", sans-serif;
+   color: black;
+}
+
+img { 
+   background: url("https://raw.githubusercontent.com/AZaragoza-9E/Q2Project/refs/heads/main/LF%20Delicacies.png") no-repeat; 
+   height: 300px;
+   width: 320px;
+   border-style: solid;
+   border-width: 7px;
+   border-radius: 10px; 
+   display: block; 
+}
+
+body {
+   background: url("https://i.pinimg.com/736x/23/ca/16/23ca16e0a9d64ca0110993a0f82e6fc4.jpg");
+   background-size:cover;
+   align-items: center;
+}
+
+.container {
+   background-color: #87BBA2;
+   border-radius: 20px;
+   padding: 20px;
+   background: rgba(255, 255, 255, .1);
+   backdrop-filter: blur(50px);
+   font-family: courier;
+}
+
+.btn {
+   background-color: #C98686;
+   border-color: #55828B;
+}
+
+.btn:hover {
+   background-color: #924849;
+   border-color: #364958;
+}
+
+h2 {
+   text-align: center;
+   font-family: courier;
+   color: #25283D;
+}
+
+h3 {
+   border-color: black;
+   font-family: New monospace;
+}
+
+h5 {
+   font-family: New monospace;
+}
+
+.card {
+   display: inline-block;
+   width: 300px;
+   background-color: #EFD9CE;
+   text-align: center;
+   margin-left: 5px;
+   margin-right: 5px;
+   margin-top: 10px;
+}
+
+.footer {
+   text-align: center;
+   font-family: Dancing Script;
+}
+
+a {
+   color: #25283D;
+}
+
+.container .btn {
+   text-align: center;
+   width: 100%;
+   height: 45px;
+   background: #fff;
+   box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+   cursor: pointer;
+   font-size: 16px;
+   color: #333;
+}
+
+li {
+   font-family: New monospace;
+}
